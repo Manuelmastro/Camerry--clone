@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    
+}
+body{
+    background: #9c4041;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:url(01.png);
+    background-size: cover;
+    background-position: center;
+    
+
+    
+}
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    color:#777;
+    padding: 10px;
+    
+    
+    
+}
+.logo{
+    margin-left: 80px;
+    width: 130px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+.navigtion-links{
+    margin-left: 100px;
+    padding: 0px;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+    
+   
+}
+nav ul a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 700;
+}
+nav ul a:hover{
+    color: gray;
+}
+.mini {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 70px;
+    
+    
+    
+}
+.mini a{
+
+    padding: 15px;
+    
+
+
+}
+.mini a i{
+    color: white;
+}
+.mini a i:hover{
+    color: gray;
+}
+
+.row{
+    
+    margin: 20px;
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+    padding: 50px;
+}
+
+
+
+.img-col{
+    margin-left: 196px;
+}
+.text-col{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+.pfirst{
+    font-size: 14px;
+    font-family:'Montserrat', sans-serif ;
+    color: white;
+    font-weight: 0;
+    margin-bottom: 7px;
+    
+
+}
+.psecond{
+    margin-top: 30px;
+    font-size: 14px;
+    font-family:'Montserrat', sans-serif ;
+    color: white;
+    font-weight: 0;
+    line-height: 25px;
+
+}
+.text-col h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 48px;
+    color: white;
+}
+.explore-btn{
+    width: 138.13px;
+    height: 46.2px;
+    
+    margin-top: 20px;
+    background: none;
+    border: 2px solid #bc9e33;
+    color: #bc9e33;
+    font-family: 'Montserrat', sans-serif;;
+    
+}
+.explore-btn:hover{
+    background: #bc9e33;
+    color: black;
+}
+.footer{
+    background: #1c1c1c;
+    padding-left: 205px;
+    padding-right: 205px;
+    padding-top: 60px;
+    
+}
+.container{
+    margin-top: 0%;
+}
+.primary{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #333;
+    padding-bottom: 40px;
+    padding-top: 0%;
+}
+.getin{
+    font-size: 32px;
+    font-family:'Montserrat', sans-serif ;
+    color: #7c682a;
+}
+.ifyou{
+    font-size: 16px;
+    font-family:'Montserrat', sans-serif ;
+    color: #d1bd74;
+    margin-top: 5px;
+}
+.primary-btn{
+    width: 163.11px;
+    height: 46.2px;
+    
+    
+    
+    background: none;
+    border: 1.5px solid rgb(223, 217, 95);
+    color: yellow;
+}
+.primary-btn button{
+    
+    width: 163.11px;
+    height: 46.2px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: #7c682a;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+.primary-btn button:hover{
+    background: #bc9e33;
+    color: black;
+
+
+}
+
+.secondary{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.sec-logo{
+    width: 130px;
+    cursor: pointer;
+}
+.sec-text1{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    color: #d1bd74;
+}
+.sec-text2{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    color: #d1bd74;
+}
+.sec-num{
+    margin-top: 48px;
+}
+.number{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    color: #d1bd74;
+}
+.sec-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+}
+.sec-menu a{
+    padding: 0px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: #d1bd74;
+    padding: 5px;
+
+}
+.end{
+    width: 1518.8px;
+    height: 160px;
+    margin-left: -203px;
+    background-color: white;
+    margin-top: 0%;
+}
